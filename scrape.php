@@ -53,10 +53,10 @@
 /* ************************************************************************************ */
 
 
-$settings['db']['username'] = 'root'; 			// Database username
-$settings['db']['password'] = 'root'; 			// Database password
-$settings['db']['hostname'] = 'localhost'; 		// Database host
-$settings['db']['database'] = 'fweb'; 			// Database name
+$settings['db']['username'] = ''; 			// Database username
+$settings['db']['password'] = ''; 			// Database password
+$settings['db']['hostname'] = ''; 			// Database host
+$settings['db']['database'] = ''; 			// Database name
 
 $settings['startat'] = 'http://uadm.uu.se';		// URL to start the scrape at. WITHOUT TRAILING SLASH! 
                                                 // Default: 'http://uadm.uu.se'.
@@ -68,7 +68,7 @@ $settings['validhosts'] = array("uadm.uu.se");	// Which domain(s) should be scra
                                                 // array("uadm.uu.se", "www.uppdragsutbildning.uu.se", "ull.uu.se")
 
 $settings['debug']['cleardb'] = true;			// Empty database before run. true or false.
-$settings['debug']['scrapemax'] = 50; 		    // Stop scraping after X pages. Script picks up where stopped when run again.
+$settings['debug']['scrapemax'] = 50000; 		// Stop scraping after X pages. Script picks up where stopped when run again.
 
 
 /* ************************************************************************************ */
