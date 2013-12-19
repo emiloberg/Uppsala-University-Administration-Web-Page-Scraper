@@ -43,12 +43,12 @@
 /* ************************************ SETTINGS ************************************** */
 /* ************************************************************************************ */
 
-$settings['db']['username'] = 'root'; 			// Database username
-$settings['db']['password'] = 'root'; 			// Database password
-$settings['db']['hostname'] = 'localhost'; 		// Database host
-$settings['db']['database'] = 'fweb'; 	        // Database name
+$settings['db']['username'] = ''; 			// Database username
+$settings['db']['password'] = ''; 			// Database password
+$settings['db']['hostname'] = ''; 			// Database host
+$settings['db']['database'] = ''; 		        // Database name
 
-$settings['debug']['maxloop'] = 5000; //Just loop X images, for debugging purposes.
+$settings['debug']['maxloop'] = 50000; //Just loop X images, for debugging purposes.
 
 /* ************************************************************************************ */
 /* ********** DONT TOUCH ANYTHING BELOW IF YOU'RE NOT SURE WHAT YOU'RE DOING ********** */
